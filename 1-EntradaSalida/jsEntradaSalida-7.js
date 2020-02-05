@@ -8,14 +8,14 @@ function sumar()
   var segundoNumero;
   var resultado
 
-  primernumero=document.getElementById('numeroUno').value;
-  console.log(primerNumero);
-   primernumero=parseInt(primerNumero);
-  segundonumero=document.getElementById('numeroDos').value;
-  console.log(segundoNumero);	
-  segundonumero=parseInt(segundoNumero);
+  primerNumero=document.getElementById('numeroUno').value;
+  
+   primerNumero=parseInt(primerNumero);
+  segundoNumero=document.getElementById('numeroDos').value;
+  
+  segundoNumero=parseInt(segundoNumero);
 
- 	resultado= primernumero+segundonumero;
+	resultado= primernumero+segundonumero;
 
 
  	console.log(resultado);
