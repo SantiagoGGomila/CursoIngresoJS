@@ -15,15 +15,18 @@ function Rectangulo ()
 
 
 	 base=document.getElementById('Ancho').value;
-	 base=parseint(base);
+	 base=parseInt(base);
+	 
 
 	 altura=document.getElementById('Largo').value;
-	 altura=parseint(altura);
+	 altura=parseInt(altura);
+	 ;
 
 	 perimetro=base*2+altura*2;
 
-	 alambre=perimetro*3;
-	 getElementById('Radio').value=alambre;
+	 alambre=document.getElementById('Radio').value;
+	 alambre=perimetro*3
+	 
 
 
 	 console.log(alambre);
@@ -34,7 +37,9 @@ function Rectangulo ()
 function Circulo () 
 {
 	
+
+	
 }
 function Materiales () 
 {
-	
+}
