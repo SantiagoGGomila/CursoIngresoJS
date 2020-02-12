@@ -18,14 +18,14 @@ function CalcularPrecio ()
 	
 	marca=document.getElementById('Marca').value;
 
-	precio= 35
-	precio=parseInt(precio);
-
+	
+	
 	cantidad=document.getElementById('Cantidad').value;
 	cantidad=parseInt(cantidad);
-	porcentaje= 0
+	precio=cantidad*35
+	porcentaje=0
 
-	if (cantidad >5)
+	if (cantidad>5)
 	{
 		porcentaje=50
 	}	
