@@ -13,35 +13,35 @@ function CalcularPrecio ()
 	var precio
 	var marca;
 	var cantidad;
+	var porcentaje
 	var descuentoAplicado;
 	
 	marca=document.getElementById('Marca').value;
 
-	precio=35
+	precio= 35
 	precio=parseInt(precio);
 
 	cantidad=document.getElementById('Cantidad').value;
 	cantidad=parseInt(cantidad);
+	porcentaje= 0
 
-	
-	
-	
 	if (cantidad >5)
 	{
-		descuentoAplicado=(precio*cantidad)*0.50
-	}
+		porcentaje=50
+	}	
 	else
 	{
-		if(cantidad>3&&marca=="ArgentinaLuz")
+		if(marca=="ArgentinaLuz")
 		{
-			descuentoAplicado=(precio*cantidad)*0.60
+			porcentaje=40
 		}
-		else(cantidad>4&&marca!="ArgentinaLuz")
+		else
 		{
-			descuentoAplicado=(precio*cantidad)*0.70
+			porcentaje=30
 		}
 	}
+	
 
-
+	descuentoAplicado=precio-precio*porcentaje/100
 	document.getElementById('precioDescuento').value=descuentoAplicado;	
 }
