@@ -2,9 +2,6 @@ function mostrar()
 {
 	var planeta;
 
-	
-
-
 	planeta=prompt("ingrese el planeta");
 
 	switch(planeta)
@@ -12,25 +9,25 @@ function mostrar()
 		case 'mercurio':
 
 		case 'venus':
-		console.log("aca hace calor");
-		break
+			console.log("aca hace calor");
+			break;
 
 		case 'tierra':
 		
-		console.log("aca vivo");
+			console.log("aca vivo");
 		
-		break
+			break;
 
 		case 'marte':
 		
 		
 
 		case 'jupiter':
-		console.log("aca hace mas frio");
-		break
+			console.log("aca hace mas frio");
+			break;
 
 		default:
-		console.log("esto no es un planeta salame");
+			console.log("esto no es un planeta salame");
 
 		
 	}

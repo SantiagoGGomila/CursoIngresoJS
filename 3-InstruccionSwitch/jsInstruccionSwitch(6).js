@@ -24,6 +24,12 @@ function mostrar()
 		case 19:
 				console.log("es de tarde");
 				break
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+		case 6:
 		case 20:
 		case 21:
 		case 22:
