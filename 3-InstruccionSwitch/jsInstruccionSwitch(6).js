@@ -7,11 +7,7 @@ function mostrar()
 
 	switch(laHora)
 	{
-		case 7:
-		case 8:
-		case 9:
-		case 10:
-		case 11:
+		case 7,8,9,10,11
 				console.log("es de mañana");
 				break
 		case 12:
