@@ -115,7 +115,14 @@ function mostrar()
 	console.log("la persona es"+ maximoDePersonasNombre);
 	console.log(maximoDeDiasCantidadDePersonas);
 	console.log(formaDePagoMasUtilizada);
+
+	document.write("<br>""nombre del huesped con mas invitados"+maximoDePersonasNombre);
+	document.write("<br>""maximo de dias y cantidad de personas"+maximoDeDiasCantidadDePersonas)
+	document.write("<br>""la forma de pago mas utilizada es "+formaDePagoMasUtilizada);
+	document.write("<br>"+promedio);
 }
+
+// PARA EL PARCIAL MOSTRAR CON DOCUMENT.WRITE
 
 
 /*if(contador==0)
