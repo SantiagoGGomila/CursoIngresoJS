@@ -99,7 +99,7 @@ function NumerosPrimos ()
 	var numero;
 	var i;
 	var bandera;
-	var contador
+	var contador;
 
 	numero=document.getElementById('numero').value;
 	numero=parseInt(numero);
@@ -115,6 +115,9 @@ function NumerosPrimos ()
 		{
 			bandera=1;
 			break;
+		}else
+		{
+			bandera=0;
 		}
 	}
 	if(bandera==0)
@@ -123,4 +126,5 @@ function NumerosPrimos ()
 		contador++;
 		console.log("los primos son"+ contador)
 	}
+}
 }
